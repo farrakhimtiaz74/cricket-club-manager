@@ -8,7 +8,7 @@ A full native Android cricket club management simulation game. Manage your club 
 
 - **APK (latest release):** see the [Releases](../../releases) section — `cricket-club-manager.apk`
 - Package: `io.github.farrakhimtiaz74.cricketmanager`
-- Version: 12.0 (versionCode 12) · minSdk 21 (Android 5.0+) · targetSdk 34
+- Version: 12.1 (versionCode 13) · minSdk 21 (Android 5.0+) · targetSdk 34
 - Size: ~221 KB
 
 ## What's in v12 — the 100-update mega-batch
