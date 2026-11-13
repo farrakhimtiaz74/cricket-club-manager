@@ -8,8 +8,20 @@ A full native Android cricket club management simulation game. Manage your club 
 
 - **APK (latest release):** see the [Releases](../../releases) section — `cricket-club-manager.apk`
 - Package: `io.github.farrakhimtiaz74.cricketmanager`
-- Version: 20.0 (versionCode 21) · minSdk 21 (Android 5.0+) · targetSdk 34
+- Version: 20.1 (versionCode 22) · minSdk 21 (Android 5.0+) · targetSdk 34
 - Size: ~16.2 MB — real media: produced audio files, artwork, fonts (breakdown below)
+
+## What's in v20.1 — the fix & polish patch
+
+Fixes proven from real device screenshots of v20.0:
+
+- **XI bar leak fixed at the root:** the pinned "XI / Auto-pick" bar no longer follows you onto other tabs — it lives only on Team and match screens, where it belongs
+- **Board & Fans meters rebuilt:** slim bars with the number and rating word always visible; the fill is clamped so it can never overflow its track again
+- **Squad Cards view rebuilt** at a fixed compact height — avatar, rating ring, form, stamina and morale face on every card
+- **League & World info bands** now carry real content (your club's position / your best-ranked player) instead of sitting empty
+- **Header fixed:** compact 64dp band, artwork visible through a translucent scrim, and the gradient now sweeps **your club's colours** (Islamabad red→orange, Lahore gold→green, Karachi blue→gold)
+- Squad rows gained rating rings + morale faces; World rankings gained flag chips and proper segmented controls; the bottom navigation is clean dark glass (checker texture removed); match cards show bigger crests and real last-5 form pills; more figures render in the display font
+- New layout-invariant tests (48 checks) encode the three screenshot defects so they can't silently return
 
 ## What's in v20 — the Rich Media Edition
 
