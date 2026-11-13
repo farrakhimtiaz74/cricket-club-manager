@@ -8,8 +8,23 @@ A full native Android cricket club management simulation game. Manage your club 
 
 - **APK (latest release):** see the [Releases](../../releases) section — `cricket-club-manager.apk`
 - Package: `io.github.farrakhimtiaz74.cricketmanager`
-- Version: 20.1 (versionCode 22) · minSdk 21 (Android 5.0+) · targetSdk 34
-- Size: ~16.2 MB — real media: produced audio files, artwork, fonts (breakdown below)
+- Version: 21.0 (versionCode 23) · minSdk 21 (Android 5.0+) · targetSdk 34
+- Size: ~20.2 MB — real media: produced audio files, artwork, fonts, voice clips (breakdown below)
+
+## What's in v21 — the Overhaul
+
+A structural rebuild under the same game — your career, engine and economy are untouched, and v21 first backs your career up before migrating it:
+
+- **One component library:** every screen (Hub, Team, League, World, Profile, MatchDay) is now built from a single Kit — cards, rows, meters, chips, segmented controls — so the look is consistent and a fix lands everywhere at once
+- **Python theme factory:** a full theme pack generated per club (banner + panel art in club colours); the app wears your club's pack
+- **Python voice pack:** 59 generated voice clips stitched into spoken score updates (Settings → Voice, off by default) — replaces the old robotic system voice, which is deleted
+- **Realistic art & avatars:** photorealistic stadium, dressing-room and training-ground backdrops; realistic fictional player portraits with kit tints and metallic tier frames (Bronze/Silver/Gold/Elite) on every player — generic faces, not the named players' real likenesses
+- **Crests v2, emblems & flags:** richer metallic club crests, original League and Cup emblems, accurate national flags
+- **Animated everything:** floodlight-pulse animated splash, screens that transition, a win-% graph that draws itself, money figures that count up
+- **MatchDay screen:** one broadcast layout for a live match — Live / Tactics / Scorecard / Timeline in a segmented switch under the pinned score bug
+- **Theme engine:** Club / Midnight / Classic Gold looks in Settings; smoother long lists; Hub rebuilt as a composed dashboard
+- **Save system v2:** compressed saves, visual save slots, automatic pre-update career backup with restore in Settings
+- **Deleted as clutter:** the old synthesized-sound engine (every sound is a real file now), season result codes, the prediction game, CSV export, the duplicate squad view toggle, and the flat drawn club shields
 
 ## What's in v20.1 — the fix & polish patch
 
