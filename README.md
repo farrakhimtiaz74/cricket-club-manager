@@ -8,7 +8,7 @@ A full native Android cricket club management simulation game. Manage **Lahore Q
 
 - **APK (latest release):** see the [Releases](../../releases) section — `cricket-club-manager.apk`
 - Package: `io.github.farrakhimtiaz74.cricketmanager`
-- Version: 1.0 (versionCode 1) · minSdk 21 (Android 5.0+) · targetSdk 34
+- Version: 2.0 (versionCode 2) · minSdk 21 (Android 5.0+) · targetSdk 34
 - Size: ~50 KB
 
 ## Features
