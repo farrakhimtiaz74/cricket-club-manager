@@ -8,8 +8,16 @@ A full native Android cricket club management simulation game. Manage your club 
 
 - **APK (latest release):** see the [Releases](../../releases) section — `cricket-club-manager.apk`
 - Package: `io.github.farrakhimtiaz74.cricketmanager`
-- Version: 12.1 (versionCode 13) · minSdk 21 (Android 5.0+) · targetSdk 34
-- Size: ~221 KB
+- Version: 19.0 (versionCode 20) · minSdk 21 (Android 5.0+) · targetSdk 34
+- Size: ~281 KB
+
+## What's in v19 — the Professional + Audio release
+
+On top of the v12 100-update mega-batch:
+
+- **Design batch (v13):** a full design system, Stadium Night theme with club crests and colours, drawn icons (no emoji in the UI), broadcast match screen (score bug, ball chips, momentum bar), drawn gauges and charts, player avatars and rating tiers, confetti celebrations
+- **Professional Pack (v14–v18):** the 50-point professional pass — palette and button discipline, a dashboard Hub (Today / Next Match / Needs Attention / Money), sticky filters, collapsible sections, bottom sheets, pinned action bars, a broadcast-grade match centre (win-% graph, turning point, pre-match comparison bars, infographic full-time screen), compact player cards and tabbed player details, market cards and a real auction panel, finance dashboard tiles, league tables with form dots and movement, honours boards, a weekly calendar timeline, first-launch onboarding, Quick Start, a full Help section with glossary, reorganised Settings, plain-language backup, a changelog-style What's New and an About/trust card
+- **Audio Pack (v19):** fully synthesized sound — no audio files. Bat hits, stumps, crowd roars and groans that follow the match, stadium ambience, tension in close chases, UI and auction sounds, win/title stings, menu and match music, optional spoken score updates, and a 5-channel sound mixer with a Quiet Mode
 
 ## What's in v12 — the 100-update mega-batch
 
